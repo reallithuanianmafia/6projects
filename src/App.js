@@ -24,6 +24,7 @@ function App() {
             <p><button className='btn btn-primary' onClick = { () => pushUp() }>Push + </button></p>
             <p><button className='btn btn-danger' onClick = { () => popUp() }>Pop - </button></p>
           </div>
+          <div class="card-footer text-center">Made with love by @reallithuanianmafia</div>
         </div>
         </div>
       </div>
