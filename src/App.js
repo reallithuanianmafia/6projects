@@ -21,8 +21,8 @@ function App() {
           <div className="card-header">Counter App</div>
           <div className="card-body">
             <h5 className="card-title">Count: {count} </h5>
-            <p><button className='btn btn-primary' onClick = { () => pushUp() }>Push</button></p>
-            <p><button className='btn btn-danger' onClick = { () => popUp() }>Pop</button></p>
+            <p><button className='btn btn-primary' onClick = { () => pushUp() }>Push + </button></p>
+            <p><button className='btn btn-danger' onClick = { () => popUp() }>Pop - </button></p>
           </div>
         </div>
         </div>
